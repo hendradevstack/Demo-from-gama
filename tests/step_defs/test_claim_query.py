@@ -9,7 +9,7 @@ scenarios('../features/')
 def get_access_token():
     driver = webdriver.Chrome()
     driver.get('http://www.google.com')
-
+# test edit
 @pytest.fixture()
 @when('User send request claim query')
 def send_claim_query():
